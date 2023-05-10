@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+@import "variables";
+
+.container {
+    background-color: $navbar-color ;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .links {
+        text-decoration: none;
+        color: $font-color;
+    }
+
+    .big {
+        flex-basis: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small {
+        flex-basis: 35%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 8rem;
+    }
+}
