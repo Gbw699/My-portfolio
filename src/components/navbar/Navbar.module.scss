@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
 @import "variables";
+@import "mixins";
 
 .container {
     background-color: $navbar-color ;
@@ -13,14 +14,16 @@
     .links {
         text-decoration: none;
         color: $font-color;
+        @include hover-scale;
+
+        &.big {
+            flex-basis: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
-    .big {
-        flex-basis: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .small {
         flex-basis: 35%;
