@@ -13,14 +13,15 @@
 
     .links {
         text-decoration: none;
-        color: $font-color;
-        @include hover-scale;
+        color: $primary-font-color;
+        @include hover-transform;
 
         &.big {
             flex-basis: 40%;
             display: flex;
             justify-content: center;
             align-items: center;
+            width: fit-content;
         }
     }
 

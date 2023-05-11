@@ -16,6 +16,6 @@
     .icons {
         filter: invert(100%);
         padding: 0 1rem;
-        @include hover-scale
+        @include hover-transform
     }
 }
