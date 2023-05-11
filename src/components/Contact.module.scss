@@ -1,0 +1,12 @@
+@import "variables";
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+    max-width: 20%;
+    .icons {
+        filter: invert(100%);
+    }
+}
