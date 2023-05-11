@@ -1,0 +1,14 @@
+@import "variables";
+
+@mixin hover-transform {
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+        color: $secundary-font-color;
+    }
+
+    &:focus {
+        color: $secundary-font-color;
+    }
+}
