@@ -10,7 +10,7 @@
 
     .element1 {
         justify-self: end;
-        margin-right: 130px;
+        margin-right: 170px;
 
         .arrow {
             position: absolute;
@@ -19,6 +19,10 @@
 
     .element2 {
         grid-row: 2/4;
+        background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%,$navbar-color 80%, $background-color 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .element3 {
