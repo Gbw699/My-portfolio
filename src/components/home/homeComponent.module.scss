@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+@import "variables";
+
+.grid {
+    font-family: 'Preahvihear';
+    display: grid;
+    margin: 0 20%;
+    grid-template-columns: 50% 5% 45%;
+    grid-template-rows: minmax(10%, auto);
+
+    .element1 {
+        justify-self: end;
+        margin-right: 130px;
+
+        .arrow {
+            position: absolute;
+        }
+    }
+
+    .element2 {
+        grid-row: 2/4;
+    }
+
+    .element3 {
+        grid-column: 2/4;
+        font-size: 19px;
+
+        .name {
+            color: $secundary-font-color;
+        }
+    }
+
+    .element4 {
+        grid-column: 3/4;
+        grid-row: 2/4;
+        display: grid;
+        grid-template-rows: auto;
+
+        .nestedElement1 {
+            font-size: 17px;
+            align-self: flex-end;
+            margin-top: 100px;
+        }
+
+        .nestedElement2 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .nestedElement3 {
+            font-size: 11px;
+            margin-bottom: 170px;
+        }
+    }
+}
