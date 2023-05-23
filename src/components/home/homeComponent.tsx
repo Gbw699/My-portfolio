@@ -14,7 +14,7 @@ export default function HomeComponent() {
         </div>
         <div className={styles.element4}>
             <p className={styles.nestedElement1}>Un Desarrollador Web</p>
-            <h2 className={styles.nestedElement2}>Lorem ipsum dolor sit amet.</h2>
+            <h2 className={styles.nestedElement2}>Que convierte café en código</h2>
             <p className={styles.nestedElement3}>Lorem, ipsum dolor </p>
         </div>
     </div>
