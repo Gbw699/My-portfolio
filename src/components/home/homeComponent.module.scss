@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
 @import "variables";
+@import "mixins";
 
 .grid {
-    font-family: 'Preahvihear';
     display: grid;
     margin: 0 20%;
     grid-template-columns: 50% 5% 45%;
@@ -10,8 +9,8 @@
 
     .element1 {
         justify-self: end;
-        margin-right: 170px;
-
+        margin-right: 160px;
+        margin-top: 50px;
         .arrow {
             position: absolute;
         }
@@ -19,18 +18,22 @@
 
     .element2 {
         grid-row: 2/4;
-        background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%,$navbar-color 80%, $background-color 100%);
+        background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, $navbar-color 80%, $background-color 100%);
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .element3 {
         grid-column: 2/4;
-        font-size: 19px;
+        font-size: 20pt;
+        margin-top: 20px; 
 
         .name {
+            text-decoration: none;
             color: $secundary-font-color;
+            @include underline-animation
         }
     }
 
@@ -41,18 +44,24 @@
         grid-template-rows: auto;
 
         .nestedElement1 {
-            font-size: 17px;
+            font-size: 18pt;
             align-self: flex-end;
-            margin-top: 100px;
+            margin-top: 80px;
         }
 
         .nestedElement2 {
-            font-size: 50px;
+            font-size: 35pt;
             margin: 0;
+
+            .text {
+                text-decoration: none;
+                color: $secundary-font-color;
+                @include underline-animation
+            }
         }
 
         .nestedElement3 {
-            font-size: 11px;
+            font-size: 12pt;
             margin-bottom: 170px;
         }
     }
