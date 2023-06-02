@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixins";
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+        padding: 3px 10px;
+        margin: 1rem;
+        text-decoration: none;
+        font-size: 16pt;
+        color: $primary-font-color;
+        background-color: $btn-primary-color;
+        border: 1px solid $btn-secondary-color;
+        border-radius: 2rem;
+        @include hover-transform
+    }
+
+}

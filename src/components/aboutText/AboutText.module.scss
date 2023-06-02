@@ -1,0 +1,12 @@
+@import "variables";
+
+.title {
+    font-size: 30pt;
+}
+
+.text {
+    font-size: 14pt;
+    .strongText {
+        color: $secundary-font-color;
+    }
+}
