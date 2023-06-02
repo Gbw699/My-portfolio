@@ -19,9 +19,7 @@ export default function RootLayout({
           <Navbar />
         </header>
         {children}
-        <footer>
-          <Contact />
-        </footer>
+        <Contact />
       </body>
     </html>
   )
