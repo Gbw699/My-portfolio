@@ -1,7 +1,7 @@
 import styles from "./AboutText.module.scss"
 
 export default function AboutText() {
-    return <div>
+    return <section>
         <h1 className={styles.title}>
             Soy desarrollador Full Stack...
         </h1>
@@ -14,5 +14,5 @@ export default function AboutText() {
             <br />
             <strong className={styles.strongText}>La programación ha sido la pieza clave del rompecabezas</strong>. Descubrí que la programación es algo que me encanta y que me ofrece un gran abanico de posibilidades para disfrutar mi vida y conectarme con el cine desde un ángulo distinto.
         </p>
-    </div>
+    </section>
 }
