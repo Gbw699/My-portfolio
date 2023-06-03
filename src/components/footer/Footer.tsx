@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from "./Contact.module.scss"
+import styles from "./Footer.module.scss"
 import { Plus_Jakarta_Sans } from "next/font/google"
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({

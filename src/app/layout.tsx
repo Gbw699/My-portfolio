@@ -1,5 +1,5 @@
 import Navbar from '@/components/navbar/Navbar'
-import Contact from '@/components/contact/Contact'
+import Contact from '@/components/footer/Footer'
 import "./globals.scss"
 
 export const metadata = {
