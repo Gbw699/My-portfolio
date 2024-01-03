@@ -1,0 +1,14 @@
+@import "variables";
+@import "mixins";
+
+.container {
+    .textContainer {
+        .icons {
+            filter: invert(100%);
+            padding: 0 1rem;
+            @include hover-transform
+        }
+    }
+
+    .imgContainer {}
+}
